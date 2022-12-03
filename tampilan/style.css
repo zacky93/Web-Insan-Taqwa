@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(Logo/bg1.webp);
+    background-color: lightcyan;
+    background-blend-mode: luminosity;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 30px;
+}
+
+.brand>img {
+    width: 80px;
+    height: 80px;
+    padding-right: 10px;
+}
+
+.brand>img:hover {
+    width: 100px;
+    height: 100px;
+    transition: all .3s ease-in-out;
+}
+
+.firstname {
+    color: #1bce1b;
+    font-weight: 700;
+    font-size: 50px;
+    padding-top: 25px;
+
+}
+
+.lastname {
+    color: white;
+    font-weight: 400;
+    padding-left: 3px;
+    font-size: 50px;
+    padding-top: 25px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content>img {
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-shadow: 3px 2px 1px grey;
+}
+
+.content>a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: cadetblue;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #1bce1b;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 250px;
+}
+
+.content>a {
+    background:rgba(0, 0, 0, 0.5);
+}
+
+.content>a:hover {
+    background: rgb(27, 206, 27, 0.5);
+    border: 2px solid white;
+    transition: all .3s ease-in-out;
+}
+
+.btn-floating {
+    position: fixed;
+    right: 25px;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: 0;
+    z-index: 9999;
+    color: #fff;
+    background: #1bce1b;
+    bottom: 85px;
+    border: 2px solid #fff;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-floating:hover {
+    width: auto;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-floating>img {
+    width: 40px;
+    height: 40px;
+    
+}
+
+.btn-floating>span {
+    font-size: 20px;
+    margin-left: 5px;
+    transition: .5s;
+    line-height: 0px;
+    display: none;
+}
+
+.btn-floating:hover span {
+    display: inline-block;
+}
+
+.btn-floating:hover img {
+    margin-bottom: -3px;
+}
+
+.btn-floating.youtube {
+    bottom: 25px;
+    background-color: #c4302b;
+    border: 2px solid #fff;
+
+}
+
+.btn-floating.youtube>img {
+    width: 40px;
+    height: 40px;
+}
+
+.btn-floating.instagram {
+    bottom: 145px;
+    background-color: purple;
+    border: 2px solid #fff;
+}
+
+.btn-floating.instagram>img {
+    width: 35px;
+    height: 35px;
+}
+
+.btn-floating.maps {
+    bottom: 205px;
+    background-color: lightgreen;
+    border: 2px solid #fff;
+}
+
+.btn-floating.maps>img {
+    width: 45px;
+    height: 45px;
+}
+
+.namasatu {
+    bottom: 5px;
+    left: 5px;
+    color: white;
+    position: absolute;
+
+}
